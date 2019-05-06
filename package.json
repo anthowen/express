@@ -5,7 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
-    "helmet": "^3.16.0"
+    "helmet": "^3.16.0",
+    "twilio": "^3.30.3"
   },
   "scripts": {
     "start": "node ."

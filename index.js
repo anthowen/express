@@ -1,7 +1,6 @@
-const http = require('http');
-const express = require('express');
+const express = require('express')
 const helmet = require('helmet')
-const MessagingResponse = require('twilio').twiml.MessagingResponse;
+const MessagingResponse = require('twilio').twiml.MessagingResponse
 
 const app = express();
 // add some security-related headers to the response
