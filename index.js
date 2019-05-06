@@ -32,8 +32,4 @@ app.get('/sms', (req, res) => {
 //    `)
 //})
 
-http.createServer(app).listen(1337, () => {
-  console.log('Express server listening on port 1337');
-});
-
 module.exports = app
